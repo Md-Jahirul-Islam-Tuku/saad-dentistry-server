@@ -11,10 +11,23 @@ app.use(express.json());
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.fqmp7pn.mongodb.net/?retryWrites=true&w=majority`;
-console.log(uri);
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-const Services = client.db("saadDentistry").collection("services");
+async function run () {
+  try{
+    const Services = client.db("saadDentistry").collection("services");
+    app.get('/services', async (req, res)=>{
+      const query ={}
+      const cursor = Services.find(query);
+      const services = await cursor.toArray();
+      res.send(services)
+    })
+
+  } finally {
+
+  }
+}
+run().catch(err => console.log(err))
   
 
 
