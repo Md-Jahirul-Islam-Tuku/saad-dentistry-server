@@ -1,0 +1,44 @@
+[
+  {
+    "title":"General Dentistry",
+    "img":"https://i.ibb.co/KX34JcD/GD-img.jpg",
+    "rating":"4.9",
+    "price":33,
+    "description":"We not only fix urgent dental problems, but examine your mouth more closely to ensure that all your oral health issues are thoroughly understood. At Braeside Dental we offer a full range of general dental services to all patients, and if we can’t do it then we can refer you to a local dental specialist who can. Starting with the humble dental check-up, we provide top quality services at affordable prices. We not only fix urgent dental problems, but examine your mouth more closely to ensure that all your oral health issues are thoroughly understood. At Braeside Dental we offer a full range of general dental services to all patients, and if we can’t do it then we can refer you to a local dental specialist who can. Starting with the humble dental check-up, we provide top quality services at affordable prices."
+  },
+  {
+    "title":"Oral Examinations",
+    "img":"https://i.ibb.co/zR2vj8R/oral-ex-img.jpg",
+    "rating":"4.5",
+    "price":40,
+    "description":"We encourage all patients to return for a full examination every 6-12 months. This is the best way to keep track of your oral health. We spot problems before they become serious, and help you avoid more painful and costly emergencies. We use low exposure time instant digital x-rays to properly examine any areas we cannot see. We encourage all patients to return for a full examination every 6-12 months. This is the best way to keep track of your oral health. We spot problems before they become serious, and help you avoid more painful and costly emergencies. We use low exposure time instant digital x-rays to properly examine any areas we cannot see."
+  },
+  {
+    "title":"Teeth Cleaning",
+    "img":"https://i.ibb.co/YPtdnSD/teeth-cl-img.jpg",
+    "rating":"4.8",
+    "price":29,
+    "description":"Dental plaque can harden onto your teeth and become impossible to remove at home. Our dental hygienists ensure that all tartar is removed as comfortably as possible, and we try to keep you motivated to brush and floss daily. After a scale and polish, your teeth and gums will be clean and healthy. Dental plaque can harden onto your teeth and become impossible to remove at home. Our dental hygienists ensure that all tartar is removed as comfortably as possible, and we try to keep you motivated to brush and floss daily. After a scale and polish, your teeth and gums will be clean and healthy."
+  },
+  {
+    "title":"Fillings",
+    "img":"https://i.ibb.co/mFDbTc8/fill-img.jpg",
+    "rating":"4.5",
+    "price":30,
+    "description":"We chose from the full range of restorative materials including amalgam for back teeth, tooth coloured composite resin for front and back teeth, glass ionomer for certain circumstances, and even porcelain for larger restorations. We consider what is the most appropriate for your specific oral environment, and what will give you the longevity and appearance that you desire. We chose from the full range of restorative materials including amalgam for back teeth, tooth coloured composite resin for front and back teeth, glass ionomer for certain circumstances, and even porcelain for larger restorations. We consider what is the most appropriate for your specific oral environment, and what will give you the longevity and appearance that you desire."
+  },
+  {
+    "title":"Root Canal Treatment",
+    "img":"https://i.ibb.co/vBGLb3D/root-img.jpg",
+    "rating":"4.9",
+    "price":32,
+    "description":"As general dentists we routinely perform root canal treatments on non-vital teeth using modern rotary instrument techniques. We are pleased that the techniques used these days are quite reliable and pain free. As general dentists we routinely perform root canal treatments on non-vital teeth using modern rotary instrument techniques. We are pleased that the techniques used these days are quite reliable and pain free."
+  },
+  {
+    "title":"Prosthesis",
+    "img":"https://i.ibb.co/QrvKnnb/pros-img.jpg",
+    "rating":"4.9",
+    "price":35,
+    "description":"Many people have problems with their wisdom teeth, the third set of molar teeth which grows at 18-24 years of age. They may not grow through the gums properly and can cause problems for the gums or other back teeth. We will assess your wisdom teeth and if required, can remove them safely under local or general anaesthetic. Many people have problems with their wisdom teeth, the third set of molar teeth which grows at 18-24 years of age. They may not grow through the gums properly and can cause problems for the gums or other back teeth. We will assess your wisdom teeth and if required, can remove them safely under local or general anaesthetic."
+  }
+]
