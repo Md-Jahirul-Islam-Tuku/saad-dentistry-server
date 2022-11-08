@@ -13,20 +13,25 @@ app.use(express.json());
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.fqmp7pn.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-async function run () {
-  try{
+async function run() {
+  try {
     const Services = client.db("saadDentistry").collection("services");
-    app.get('/services', async (req, res)=>{
-      const query ={}
+    app.get('/services', async (req, res) => {
+      const query = {}
       const cursor = Services.find(query);
       const services = await cursor.toArray();
       res.send(services)
     })
-    app.get('/services/:id', async (req, res)=>{
+    app.get('/services/:id', async (req, res) => {
       const id = req.params.id;
-      const query = {_id: ObjectId(id)}
+      const query = { _id: ObjectId(id) }
       const service = await Services.findOne(query)
       res.send(service)
+    })
+    app.post('/services', async (req, res) => {
+      const service = req.body;
+      const result = await Services.insertOne(service);
+      res.send(result)
     })
 
   } finally {
@@ -34,13 +39,13 @@ async function run () {
   }
 }
 run().catch(err => console.log(err))
-  
 
 
-app.get('/', (req, res)=>{
+
+app.get('/', (req, res) => {
   res.send('SaaD Dentistry server is running...')
 })
 
-app.listen(port, ()=>{
+app.listen(port, () => {
   console.log('SaaD Dentistry is listening on', port);
 })
