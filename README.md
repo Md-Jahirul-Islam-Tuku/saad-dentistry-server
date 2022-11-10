@@ -1,6 +1,6 @@
 # [SaaDDentistry](https://saad-dentistry.web.app/) server site
 
-You can know about [SaaDDentistry](https://saad-dentistry.web.app/) A simple React app built with React, Firebase, express.js, Mongodb and React router dom for personal dental service provide.
+You can know about [SaaDDentistry](https://saad-dentistry.web.app/) A simple React app built with React, Firebase, express.js, Mongodb and React router dom about personal dental service providing.
 
 ## Live Link:
 
